@@ -8,8 +8,8 @@
 #   Merge Sort
 # and more to come!
 
-import sorting_algorithms, time, os, sys
-os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
-import pygame
+#import sorting_algorithms, time, os, sys
+#os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
+#import pygame
 
 # testing 123
