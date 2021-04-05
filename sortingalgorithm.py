@@ -21,7 +21,7 @@ class Algorithm:
         self.array = random.sample(range(512), 512)
         self.name = name
 
-    def update_display(self, swap1=None, swap2=None):
+    def refreshScreen(self, swap1=None, swap2=None):
         import sorting_visualiser
 
         sorting_visualiser.update(self, swap1, swap2)
@@ -49,7 +49,7 @@ class SelectionSort(Algorithm):
                 if self.array[j] < self.array[min_idx]:
                     min_idx = j
             self.array[i], self.array[min_idx] = self.array[min_idx], self.array[i]
-            self.update_display(self.array[i], self.array[min_idx])
+            self.refreshScreen(self.array[i], self.array[min_idx])
 
 # https://www.geeksforgeeks.org/insertion-sort/
 # Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
@@ -61,8 +61,9 @@ class InsertionSort(Algorithm):
         for i in range(len(self.array)):
             cursor = self.array[i]
             idx = i
+            # set idx equal to i index
             while idx > 0 and self.array[idx-1] > cursor:
                 self.array[idx] = self.array[idx-1]
                 idx -= 1
             self.array[idx] = cursor
-            self.update_display(self.array[idx], self.array[i])
+            self.refreshScreen(self.array[idx], self.array[i])

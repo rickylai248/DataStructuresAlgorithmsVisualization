@@ -40,12 +40,12 @@ display = pygame.display.set_mode((dimensions[0], dimensions[1]))
 display.fill(pygame.Color("white"))
 
 
-def check_events():
+def checkIfQuit():
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit(); sys.exit();
 
-def update(algorithm, swap1=None, swap2=None, display=display):
+def refresh(algorithm, swap1=None, swap2=None, display=display):
     display.fill(pygame.Color("white"))
     pygame.display.set_caption("Sorting Visualiser     Algorithm: {}     Time: {:.3f}      Status: Sorting".format(algorithm.name, time.time() - algorithm.start_time))
     k = int(dimensions[0]/len(algorithm.array))
@@ -56,14 +56,14 @@ def update(algorithm, swap1=None, swap2=None, display=display):
         elif swap2 == algorithm.array[i]:
             colour = (255,0,0)
         pygame.draw.rect(display, colour, (i*k,dimensions[1],k,-algorithm.array[i]))
-    check_events()
-    pygame.display.update()
+    checkIfQuit()
+    pygame.display.refresh()
 
-def keep_open(algorithm, display, time):
+def whileActive(algorithm, display, time):
     pygame.display.set_caption("Sorting Visualiser     Algorithm: {}     Time: {:.3f}      Status: Done".format(algorithm.name, time))
     while True:
-        check_events()
-        pygame.display.update()
+        checkIfQuit()
+        pygame.display.refresh()
 
 def main():
     if len(sys.argv) < 2:
@@ -73,11 +73,12 @@ def main():
             algorithm = algorithms[sys.argv[1]]
             try:
                 time_elapsed = algorithm.run()[1]
-                keep_open(algorithm, display, time_elapsed)
+                whileActive(algorithm, display, time_elapsed)
                 pass
             except:
                 pass
         except:
+            # catch excepts
             print("Error: {} is not a valid sorting algorithm".format(sys.argv[1]))
             print("Note: Sorting algorithms are in Camel Case")
 
