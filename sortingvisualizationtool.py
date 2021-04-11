@@ -21,6 +21,7 @@ import pygame
 # https://www.pygame.org/docs/ (custom effects, etc.)
 # https://www.pygame.org/docs/tut/ImportInit.html
 # https://docs.python.org/3/library/time.html
+
 from pygame.locals import *
 # imports the pygame module into the "pygame" namespace (saves typing)
 

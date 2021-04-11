@@ -33,7 +33,6 @@ class Algorithm:
         return self.array, time_elapsed
 
 # Inspiration: https://www.youtube.com/watch?v=kFeXwkgnQ9U&ab_channel=DerrickSherrill
-
 # https://www.geeksforgeeks.org/selection-sort/
 # https://www.bigocheatsheet.com/
 # https://en.wikipedia.org/wiki/Selection_sort

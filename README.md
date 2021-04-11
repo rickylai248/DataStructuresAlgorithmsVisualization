@@ -1,8 +1,8 @@
 # DataStructuresAlgorithmsVisualization
 
-Inspired from my course in Data Structures & Algorithms
+Inspired from my course in Data Structures & Algorithms (i.e. sorting, graphs, heap)
 
-Began brainstorming and implementing sorting algorithms utilized for class activities
+Began brainstorming and implementing sorting algorithms utilized for class activities (Documentation also included)
 
 # Beginning with sorting algorithms we learned first in-class which is inclusive of:
 #   Selection Sort ( Worst Case: O(n^2), Best: Ω(n^2) )
