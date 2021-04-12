@@ -21,7 +21,6 @@ import pygame
 # https://www.pygame.org/docs/ (custom effects, etc.)
 # https://www.pygame.org/docs/tut/ImportInit.html
 # https://docs.python.org/3/library/time.html
-
 from pygame.locals import *
 # imports the pygame module into the "pygame" namespace (saves typing)
 
@@ -46,7 +45,6 @@ if len(sys.argv) > 1:
 
 pygame.init()
 # safely initalizes all imported pygame modules
-
 display = pygame.display.set_mode((dimensions[0], dimensions[1]))
 # https://www.pygame.org/docs/ref/display.html
 display.fill(pygame.Color("white"))
