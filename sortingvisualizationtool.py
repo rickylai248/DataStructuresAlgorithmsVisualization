@@ -18,6 +18,7 @@ import sortingalgorithm, time, os, sys
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 # captures mapping, represents string environment
 import pygame
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame
 # https://www.pygame.org/docs/ (custom effects, etc.)
 # https://www.pygame.org/docs/tut/ImportInit.html
 # https://docs.python.org/3/library/time.html
