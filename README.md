@@ -17,7 +17,7 @@ and more to come!
 
 # Visualization tool created using Python to complement the sorting algorithmic construction file: See current work in progress above 
 
-Includes comments for each sorting algorithm in "sortingalgorithm.py" noting the time complexity and description of each
+Included comments for each sorting algorithm in "sortingalgorithm.py" noting the time complexity and description of each
 
 
 python sortingvisualizationtool.py ____
