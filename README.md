@@ -1,4 +1,4 @@
-# DataStructuresAlgorithmsVisualization
+# Data Structures & Algorithms Visualization
 
 Inspired from my university course in Data Structures & Algorithms.
 
