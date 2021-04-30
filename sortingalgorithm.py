@@ -21,8 +21,8 @@ class Algorithm:
         self.name = name
 
     def refreshScreen(self, swap1=None, swap2=None):
-        import sorting_visualiser
-        sorting_visualiser.update(self, swap1, swap2)
+        import sortingvisualizationtool
+        sortingvisualizationtool.update(self, swap1, swap2)
         # The update() method updates the dictionary with the elements from the another dictionary object or from an iterable of key/value pairs.
 
     def run(self):

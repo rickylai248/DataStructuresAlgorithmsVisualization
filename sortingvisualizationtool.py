@@ -31,8 +31,8 @@ dimensions = (1200, 600)
 # able to change width, height
 # warning: y value should fit array len
 
-algorithms = {"SelectionSort": sorting_algorithms.SelectionSort(), \
-              "InsertionSort": sorting_algorithms.InsertionSort()}
+algorithms = {"SelectionSort": sortingalgorithm.SelectionSort(), \
+              "InsertionSort": sortingalgorithm.InsertionSort()}
               # will add Merge, Heap, and Quick Sort in the near future
 # https://www.geeksforgeeks.org/selection-sort/
 # https://www.geeksforgeeks.org/insertion-sort/
