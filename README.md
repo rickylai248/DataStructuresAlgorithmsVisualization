@@ -1,8 +1,8 @@
 # Data Structures & Algorithms Visualization
 
-Inspired from my university course in Data Structures & Algorithms.
+Inspired from my university course in Data Structures & Algorithms. I began brainstorming and implementing sorting algorithms utilized for class activities in order to better understand them.
 
-I began brainstorming and implementing sorting algorithms utilized for class activities in order to better understand them.
+![image](https://thagomizer.com/img/InsertionSortInPlace.gif)
 
 # Beginning with sorting algorithms we learned first in-class which is inclusive of:
 Selection Sort ( Worst Case: O(n^2), Best: Ω(n^2) )
