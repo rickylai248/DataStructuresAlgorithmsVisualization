@@ -23,6 +23,9 @@ import pygame
 # https://www.pygame.org/docs/tut/ImportInit.html
 # https://docs.python.org/3/library/time.html
 from pygame.locals import *
+import random
+import colorsys
+import traceback
 # imports the pygame module into the "pygame" namespace (saves typing)
 
 # Inspiration: https://www.youtube.com/watch?v=kFeXwkgnQ9U&ab_channel=DerrickSherrill
@@ -82,7 +85,7 @@ def whileActive(algorithm, display, time):
 
 def main():
     if len(sys.argv) < 2:
-        print("Exception: Please enter a sorting algorithm")
+        print("Please enter a sorting algorithm")
     else:
         try:
             algorithm = algorithms[sys.argv[1]]
@@ -94,8 +97,8 @@ def main():
                 pass
         except:
             # catch excepts
-            print("Exception: {} is not one of the valid sorting algorithms".format(sys.argv[1]))
-            print("Side Note: Sorting algorithms are in Camel Case format")
+            print("{} is not one of the valid sorting algorithms".format(sys.argv[1]))
+            print("Sorting algorithms are in Camel Case format")
 
 if __name__ == "__main__":
     main()
