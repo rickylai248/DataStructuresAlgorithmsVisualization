@@ -1,6 +1,6 @@
 # Data Structures & Algorithms Visualization
 
-Inspired from my university course in Data Structures & Algorithms. I began brainstorming and implementing sorting algorithms utilized for class activities in order to better understand them!!
+Inspired from my university course in Data Structures & Algorithms. I began brainstorming and implementing sorting algorithms utilized for class activities in order to better understand them!
 
 ![image](https://thagomizer.com/img/InsertionSortInPlace.gif)
 
