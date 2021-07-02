@@ -14,7 +14,7 @@ Quick Sort ( O(n^2), Ω(n log(n)) )
 
 Merge Sort ( O(n log(n), Ω(n log(n)) )
 
-and more to come!
+and more to come.
 #
 
 Visualization tool created using Python to complement the sorting algorithmic construction file: See current work in progress above 
