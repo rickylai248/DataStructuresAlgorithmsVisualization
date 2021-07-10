@@ -21,4 +21,5 @@ Visualization tool created using Python to complement the sorting algorithmic co
 
 Included comments for each sorting algorithm in "sortingalgorithm.py" noting the time complexity and description of each
 
-python sortingvisualizationtool.py ____
+python sortingvisualizationtool.py ____ 
+ 
