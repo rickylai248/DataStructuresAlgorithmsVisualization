@@ -3,7 +3,7 @@
 Inspired from my university course in Data Structures & Algorithms. I began brainstorming and implementing sorting algorithms utilized for class activities in order to better understand them. Interactive exploration of the algorithms along with analysis in the text deepens student understanding. The implementation is in Python using its interface Tk (tkinter) + pygame to animate the operations.
 
 ![image](https://thagomizer.com/img/InsertionSortInPlace.gif)
-
+ 
 Beginning with sorting algorithms we learned first in-class which is inclusive of:
 #
 Selection Sort ( Worst Case: O(n^2), Best: Ω(n^2) )
