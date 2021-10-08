@@ -11,7 +11,7 @@
 # OOP based implementation
  
 import random, time
-
+ 
 class Algorithm:
     def __init__(self, name):
         # constructor
