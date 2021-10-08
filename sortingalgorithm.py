@@ -9,7 +9,7 @@
 # and more to come!
 
 # OOP based implementation
-
+ 
 import random, time
 
 class Algorithm:
