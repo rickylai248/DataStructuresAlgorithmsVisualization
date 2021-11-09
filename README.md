@@ -5,7 +5,7 @@ Inspired from my university course in Data Structures & Algorithms. I began brai
 ![image](https://thagomizer.com/img/InsertionSortInPlace.gif)
  
 Beginning with sorting algorithms we learned first in-class which is inclusive of:
-#
+# 
 Selection Sort ( Worst Case: O(n^2), Best: Ω(n^2) )
  
 Insertion Sort ( O(n^2), Ω(n) )
