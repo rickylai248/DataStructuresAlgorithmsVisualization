@@ -85,7 +85,7 @@ def whileActive(algorithm, display, time):
 
 def main():
     if len(sys.argv) < 2:
-        print("Please enter a sorting algorithm")
+        print("Please enter a valid sorting algorithm")
     else:
         try:
             algorithm = algorithms[sys.argv[1]]
@@ -97,8 +97,8 @@ def main():
                 pass
         except:
             # catch excepts
-            print("{} is not one of the valid sorting algorithms".format(sys.argv[1]))
-            print("Sorting algorithms are in Camel Case format")
+            print("{} is not one of the valid sorting algorithms listed".format(sys.argv[1]))
+            print("Reminder: Sorting algorithms are in Camel Case format")
 
 if __name__ == "__main__":
     main()
