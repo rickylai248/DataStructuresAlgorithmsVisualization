@@ -11,7 +11,7 @@ Selection Sort ( Worst Case: O(n^2), Best: Ω(n^2) )
 Insertion Sort ( O(n^2), Ω(n) )
 
 Quick Sort ( O(n^2), Ω(n log(n)) )
-
+ 
 Merge Sort ( O(n log(n), Ω(n log(n)) )
  
 and more to come.
